@@ -43,8 +43,11 @@ namespace QandA
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "QandA v1"));
             }
+            else
+            {
+                app.UseHttpsRedirection();
 
-            app.UseHttpsRedirection();
+            }
 
             app.UseRouting();
 
