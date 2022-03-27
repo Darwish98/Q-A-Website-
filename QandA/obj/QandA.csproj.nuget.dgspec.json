@@ -51,6 +51,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "dbup": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             }
           },
           "imports": [
