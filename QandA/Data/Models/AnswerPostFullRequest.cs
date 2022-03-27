@@ -6,11 +6,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace QandA.Data.Models
 {
-    public class QuestionPutRequest
+    public class AnswerPostFullRequest
     {
-
-        [StringLength(100)]
-        public string Title { get; set; }
+        public int QuestionId { get; set; }
         public string Content { get; set; }
+        public string UserId { get; set; }
+        public string UserName { get; set; }
+        public DateTime Created { get; set; }
     }
 }
