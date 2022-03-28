@@ -64,6 +64,25 @@ namespace QandA.Data
                 ).Distinct().ToList();
             }
         }
+        public IEnumerable<QuestionGetManyResponse>GetQuestionsBySearchWithPaging(string search, int pageNumber,int pageSize)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+                var parameters = new
+                {
+                    Search = search,
+                    PageNumber = pageNumber,
+                    PageSize = pageSize
+                };
+                return connection.Query<QuestionGetManyResponse>(
+                        @"EXEC dbo.Question_GetMany_BySearch_WithPaging
+                        @Search = @Search,
+                        @PageNumber = @PageNumber,
+                        @PageSize = @PageSize", parameters
+                );
+            }
+        }
 
         public IEnumerable<QuestionGetManyResponse> GetUnansweredQuestions()
         {
@@ -71,6 +90,14 @@ namespace QandA.Data
             {
                 connection.Open();
                 return connection.Query<QuestionGetManyResponse>("EXEC dbo.Question_GetUnanswered");
+            }
+        }
+        public async Task<IEnumerable<QuestionGetManyResponse>>GetUnansweredQuestionsAsync()
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                return await connection.QueryAsync<QuestionGetManyResponse>("EXEC dbo.Question_GetUnanswered");
             }
         }
 
