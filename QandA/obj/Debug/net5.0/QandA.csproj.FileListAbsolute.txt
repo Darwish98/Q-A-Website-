@@ -5,7 +5,6 @@ C:\Users\darwi\Desktop\Courses\QandA_Website\QandA\bin\Debug\net5.0\QandA.deps.j
 C:\Users\darwi\Desktop\Courses\QandA_Website\QandA\bin\Debug\net5.0\QandA.runtimeconfig.json
 C:\Users\darwi\Desktop\Courses\QandA_Website\QandA\bin\Debug\net5.0\QandA.runtimeconfig.dev.json
 C:\Users\darwi\Desktop\Courses\QandA_Website\QandA\bin\Debug\net5.0\QandA.dll
-C:\Users\darwi\Desktop\Courses\QandA_Website\QandA\bin\Debug\net5.0\ref\QandA.dll
 C:\Users\darwi\Desktop\Courses\QandA_Website\QandA\bin\Debug\net5.0\QandA.pdb
 C:\Users\darwi\Desktop\Courses\QandA_Website\QandA\bin\Debug\net5.0\Azure.Core.dll
 C:\Users\darwi\Desktop\Courses\QandA_Website\QandA\bin\Debug\net5.0\Azure.Identity.dll
@@ -60,3 +59,4 @@ C:\Users\darwi\Desktop\Courses\QandA_Website\QandA\obj\Debug\net5.0\QandA.dll
 C:\Users\darwi\Desktop\Courses\QandA_Website\QandA\obj\Debug\net5.0\ref\QandA.dll
 C:\Users\darwi\Desktop\Courses\QandA_Website\QandA\obj\Debug\net5.0\QandA.pdb
 C:\Users\darwi\Desktop\Courses\QandA_Website\QandA\obj\Debug\net5.0\QandA.genruntimeconfig.cache
+C:\Users\darwi\Desktop\Courses\QandA_Website\QandA\obj\Debug\net5.0\refint\QandA.dll

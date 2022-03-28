@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OJfs0A2KnYB3Lmqb8h4wA8TU5TR5sSG5frk++Q1ScZMRwPCOjo4bjm2UdXKHRZWALxrl9FB/paMqi4z1NQuT5A==",
+  "dgSpecHash": "9hKoULR/2nCkju8n7XxJgH97mtYe5FJW4cDZsrga2af/lNcXdT2DX74XICZZRioQg+prNrx2LjTjwVmSBTGwgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\darwi\\Desktop\\Courses\\QandA_Website\\QandA\\QandA.csproj",
   "expectedPackageFiles": [
@@ -133,8 +133,7 @@
     "C:\\Users\\darwi\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\darwi\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\darwi\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\darwi\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\darwi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+    "C:\\Users\\darwi\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
