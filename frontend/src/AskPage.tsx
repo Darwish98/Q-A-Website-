@@ -11,8 +11,8 @@ import {
   FieldError,
   SubmissionSuccess,
 } from './Styles';
-import { postQuestion } from './QuestionsData';
 import { useForm } from 'react-hook-form';
+import { postQuestion } from './QuestionsData';
 
 type FormData = {
   title: string;
@@ -20,8 +20,9 @@ type FormData = {
 };
 
 export const AskPage = () => {
-  const [successfullySubmitted, setSuccessfullySubmitted] =
-    React.useState(false);
+  const [successfullySubmitted, setSuccessfullySubmitted] = React.useState(
+    false,
+  );
 
   const { register, errors, handleSubmit, formState } = useForm<FormData>({
     mode: 'onBlur',
@@ -36,6 +37,7 @@ export const AskPage = () => {
     });
     setSuccessfullySubmitted(result ? true : false);
   };
+
   return (
     <Page title="Ask a question">
       <form onSubmit={handleSubmit(submitForm)}>
@@ -50,9 +52,9 @@ export const AskPage = () => {
                 required: true,
                 minLength: 10,
               })}
-            />{' '}
+            />
             {errors.title && errors.title.type === 'required' && (
-              <FieldError>You must enter the question title</FieldError>
+              <FieldError>Your must enter the question title</FieldError>
             )}
             {errors.title && errors.title.type === 'minLength' && (
               <FieldError>The title must be at least 10 characters</FieldError>
@@ -69,7 +71,7 @@ export const AskPage = () => {
               })}
             />
             {errors.content && errors.content.type === 'required' && (
-              <FieldError>You must enter the question content</FieldError>
+              <FieldError>Your must enter the question content</FieldError>
             )}
             {errors.content && errors.content.type === 'minLength' && (
               <FieldError>
@@ -90,4 +92,5 @@ export const AskPage = () => {
     </Page>
   );
 };
+
 export default AskPage;
