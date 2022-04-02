@@ -4,6 +4,7 @@ import React from 'react';
 import { Page } from './Page';
 import { useParams } from 'react-router-dom';
 import { QuestionData, getQuestion, postAnswer } from './QuestionsData';
+
 import {
   gray3,
   gray6,
@@ -28,9 +29,8 @@ type FormData = {
 };
 
 export const QuestionPage = () => {
-  const [successfullySubmitted, setSuccessfullySubmitted] = React.useState(
-    false,
-  );
+  const [successfullySubmitted, setSuccessfullySubmitted] =
+    React.useState(false);
 
   const [question, setQuestion] = React.useState<QuestionData | null>(null);
 

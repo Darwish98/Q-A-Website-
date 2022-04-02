@@ -20,9 +20,8 @@ type FormData = {
 };
 
 export const AskPage = () => {
-  const [successfullySubmitted, setSuccessfullySubmitted] = React.useState(
-    false,
-  );
+  const [successfullySubmitted, setSuccessfullySubmitted] =
+    React.useState(false);
 
   const { register, errors, handleSubmit, formState } = useForm<FormData>({
     mode: 'onBlur',
