@@ -25,9 +25,10 @@ To see answered and unanswered questions press on the search bar then press ente
 Asking a question:
 When you log in the ask question button will appear: 
 ![image](https://user-images.githubusercontent.com/66258375/161429453-a594d6ef-e28e-47f5-b55a-978d507d435a.png)
-The you will directed to the following where you can ask your question: 
-![image](https://user-images.githubusercontent.com/66258375/161429579-ae1d24a5-bc8b-4bef-add5-8d52a3863a9f.png)
+The you will directed to the following where you can ask your question:
 Fill in the title and question and press submit. 
+![image](https://user-images.githubusercontent.com/66258375/161429579-ae1d24a5-bc8b-4bef-add5-8d52a3863a9f.png)
+
 
 
 Answering a question:
