@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "qanda-2022-backend-staging",
+      "defaultValue": "qanda2204-backend",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }
